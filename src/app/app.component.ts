@@ -17,7 +17,7 @@ export class AppComponent {
         this.metaService.updateTag({name: "twitter:title", content: "IPEX"});
         this.metaService.updateTag({name: "twitter:description", content: "IPEX, Interparliamentary, Exchange, National Parliaments, European Parliament, Treaty of Lisbon"});
         this.metaService.updateTag({name: "twitter:image", content: "https://ipexlpp.secure.europarl.europa.eu/IPEXL-WEB/assets/sharing-img.jpg"});
-    }, 200);
+    }, 2000);
   }
 
 
