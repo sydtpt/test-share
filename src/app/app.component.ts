@@ -10,14 +10,12 @@ export class AppComponent {
   title = 'test-share';
 
   constructor(private metaService: Meta) {
-    setTimeout(() => {
         this.metaService.updateTag({name: "twitter:card", content: "summary"});
         this.metaService.updateTag({name: "twitter:site", content: "@IPEX"});
         this.metaService.updateTag({name: "twitter:creator", content: "@IPEX"});
         this.metaService.updateTag({name: "twitter:title", content: "IPEX"});
         this.metaService.updateTag({name: "twitter:description", content: "TEST 2 secs"});
         this.metaService.updateTag({name: "twitter:image", content: "https://ipexlpp.secure.europarl.europa.eu/IPEXL-WEB/assets/sharing-img.jpg"});
-    }, 2000);
   }
 
 
